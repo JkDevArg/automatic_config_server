@@ -7,10 +7,10 @@ Con esta guía se quiere aumentar de manera eficaz el tiempo que lleve para migr
 **Ejecución**
 
 ```bash
-./01-subconfig.sh --subdomain=beta-admin-focusit.gofocus.info --ssl=true --git=https://gitlab.com/focusit/focus-web/sisweb-focusit-api
+./01-subconfig.sh --subdomain=beta-admin-focusit.gofocus.info --ssl=true --git=https://gitlab.com/project/project.git
 ```
 
-**--subdomain**: Pondremos el dominio completo del que se usara un ej: beta-admin-focusit.gofocus.info
+**--subdomain**: Pondremos el dominio completo del que se usara un ej: servidor.local
 
 **--ssl**: Si este usara SSL en caso que no, no se genera el certbot.
 
@@ -27,10 +27,10 @@ Con esta guía se quiere aumentar de manera eficaz el tiempo que lleve para migr
 
 
 ```bash
-./03-enviroment.sh --subdomain=beta-admin-focusit.gofocus.info --debug=true --db-user=test --db-pass=test --db-host=127.0.0.1 --db-port=3306 --db-name=db-test
+./03-enviroment.sh --subdomain=servidor.local --debug=true --db-user=test --db-pass=test --db-host=127.0.0.1 --db-port=3306 --db-name=db-test
 ```
 
-**--subdomain**: Pondremos el dominio completo del que se usara un ej: beta-admin-focusit.gofocus.info
+**--subdomain**: Pondremos el dominio completo del que se usara un ej: servidor.local
 
 **--debug**: Esto permite cambiar la configuración del ENV si sera modo DEBUG o no se debe colocar true o false.
 
