@@ -7,7 +7,7 @@ Con esta guía se quiere aumentar de manera eficaz el tiempo que lleve para migr
 **Ejecución**
 
 ```bash
-./01-subconfig.sh --subdomain=beta-admin-focusit.gofocus.info --ssl=true --git=https://gitlab.com/project/project.git
+./01-subconfig.sh --subdomain=servidor.local --ssl=true --git=https://gitlab.com/project/project.git
 ```
 
 **--subdomain**: Pondremos el dominio completo del que se usara un ej: servidor.local
